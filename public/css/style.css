@@ -1,0 +1,107 @@
+
+body {
+    color: white;
+    background: url('../../images/background.jpg');
+    background-size: cover;
+    font-family: arial, sans-serif;
+}
+
+main, header {
+    margin: 0 2em 3em 2em;
+}
+
+.container {
+    width: 43em;
+    background-color: #131b31;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
+
+header {
+    text-align: center;
+}
+
+.introduction {
+    width: 32em;
+    text-align: justify;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 0.9em;
+    color: rgb(192, 192, 192);
+}
+
+.title {
+    font-family: gugi, arial, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.title.secondary {
+    font-weight: bold;
+    font-size: 2em;
+    text-align: left;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-bottom: white 2px solid;
+   
+}
+
+.title.main {
+    font-family: "title-font", arial, sans-serif;
+    margin-bottom: 3rem;
+    font-size: 3em;
+    padding-top: .8em;
+    text-shadow: 0 0 0.2em rgb(243, 242, 247), 0 0 0.2em rgb(248, 248, 250),0 0 0.2em rgb(249, 248, 250);
+}
+
+#line {
+    height: .4em;
+    width: 25em;
+    margin: 3em 0 3em 50%;
+    background-color: white;
+    border-radius: .2em;
+    transform: translate(-50%, 0);
+    box-shadow: 0 0 0.2em rgb(243, 242, 247), 0 0 0.2em rgb(248, 248, 250),0 0 0.2em rgb(249, 248, 250);
+}
+
+.container_signe_astro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: .5em;
+    row-gap: .5em;
+}
+
+.signe_astro {
+    border: white dotted 2px;
+    border-radius: 0.4em;
+    padding: .5em;
+}
+
+.signe_astro > img {
+    width: 55px;
+    float: left;
+    margin: .3em 1em .2em .25em;
+}
+
+.signe_astro > p {
+    text-align: justify;
+}
+
+.signe_astro > em {
+    font-size: .7em;
+}
+
+.link_list {
+    list-style: circle;
+    text-decoration: underline;
+    margin-left: 4em;
+}
+    
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 4rem 0;
+    font-size: .85em;
+    color: rgb(193, 191, 191);
+    
+}
