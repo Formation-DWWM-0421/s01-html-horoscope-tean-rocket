@@ -46,6 +46,10 @@ header {
    
 }
 
+.title.box {
+    margin-bottom: .6em;
+}
+
 .title.main {
     font-family: "title-font", arial, sans-serif;
     margin-bottom: 3rem;
@@ -85,14 +89,15 @@ header {
 
 .signe_astro > p {
     text-align: justify;
+    margin-top: .7em;
 }
 
 .signe_astro > em {
-    font-size: .7em;
+    font-size: .6em;
 }
 
 .link_list {
-    list-style: circle;
+    list-style-image: url('../../images/losange.png');
     text-decoration: underline;
     margin-left: 4em;
 }
